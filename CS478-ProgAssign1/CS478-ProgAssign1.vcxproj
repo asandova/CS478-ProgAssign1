@@ -115,6 +115,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bof.c" />
+    <ClCompile Include="CharacterFreq.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SubsitutionCipher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ciphertext.txt" />
+    <Text Include="dictionary.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CharacterFreq.h" />
+    <ClInclude Include="SubsitutionCipher.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programming-Project1.pdf" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
